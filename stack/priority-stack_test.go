@@ -15,12 +15,12 @@ func TestNewPriorityStack(t *testing.T) {
 		name string
 		want int
 	}{
-		{"1st", 1},
-		{"2nd", 2},
-		{"3rd", 1},
-		{"4th", 3},
-		{"5th", 2},
-		{"6th", 1},
+		{"1", 1},
+		{"2", 2},
+		{"3", 1},
+		{"4", 3},
+		{"5", 2},
+		{"6", 1},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
